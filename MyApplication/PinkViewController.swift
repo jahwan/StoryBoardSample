@@ -14,10 +14,10 @@ class PinkViewController: UIViewController {
     
     @IBAction func nextScene(_ sender: Any) {
         if mySwitch.isOn {
-            
+            self.performSegue(withIdentifier: "greenway", sender: self)
         }
         else {
-            
+            self.performSegue(withIdentifier: "blueway", sender: self)
         }
     }
     
