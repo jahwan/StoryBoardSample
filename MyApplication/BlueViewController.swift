@@ -10,6 +10,10 @@ import UIKit
 
 class BlueViewController: UIViewController {
 
+    @IBAction func close(_ sender: Any) {
+        print("Bye Bye")
+        self.dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

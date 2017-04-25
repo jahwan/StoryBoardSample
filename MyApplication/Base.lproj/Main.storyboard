@@ -118,6 +118,9 @@
                                 <rect key="frame" x="174" y="356" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="닫기"/>
+                                <connections>
+                                    <action selector="close:" destination="P7i-5x-bS2" eventType="touchUpInside" id="PG6-ze-Vh1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40923313490000002" green="0.497053368" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -143,6 +146,9 @@
                                 <rect key="frame" x="158" y="455" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="닫기"/>
+                                <connections>
+                                    <action selector="close:" destination="fn7-Kx-gHP" eventType="touchUpInside" id="vXG-gU-6Wi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="녹색 화면" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIF-kh-kua">
                                 <rect key="frame" x="146" y="112" width="64" height="21"/>

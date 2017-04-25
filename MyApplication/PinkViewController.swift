@@ -22,6 +22,8 @@ class PinkViewController: UIViewController {
     }
     
     @IBAction func close(_ sender: Any) {
+        print("Hello World")
+        self.dismiss(animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
